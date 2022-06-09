@@ -32,4 +32,4 @@ jobs:
          id: cache
          with:
            path: ./README.md
-           key: cache-key-${{github.run_number}}
+           key: cache1-key-${{github.run_number}}
